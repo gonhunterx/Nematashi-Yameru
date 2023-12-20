@@ -21,6 +21,8 @@ item_dict["key3"] = item3
 
 # Access objects in the dictionary
 def main():
+    for item in item_dict:
+        print(item)
     print(item_dict["key1"])
     print(item_dict["key2"])
     print(item_dict["key3"])
